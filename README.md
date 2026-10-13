@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FindIt – Digital Lost and Found for Public Spaces
 
 **FindIt** is a modern, responsive web application built with **React.js, Vite, Tailwind CSS, and Firebase** to report, search for, and recover lost belongings across public spaces and university campuses.
@@ -132,3 +133,7 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
    - Jordan clicks **"Mark as Handed Over"**.
    - Switch back to Alex Chen; Alex clicks **"Mark as Received"**.
 9. **Confetti fires!** The item is marked as Returned, vanishes from active listings, and appears in both users' **History** tabs!
+=======
+# Findit
+Findit is a digital lost and found public platform.
+>>>>>>> 1c6e2a7f5b8f0755e32a07a133733e9a208697ad
