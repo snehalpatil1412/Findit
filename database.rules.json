@@ -1,0 +1,17 @@
+{
+  "rules": {
+    ".read": "auth != null || true",
+    ".write": "auth != null || true",
+    "items": {
+      ".indexOn": ["status", "type", "category", "reporterId", "campusZone"]
+    },
+    "claims": {
+      ".indexOn": ["itemId", "claimantId", "ownerId", "status"]
+    },
+    "user_history": {
+      "$userId": {
+        ".indexOn": ["completedAt", "itemId"]
+      }
+    }
+  }
+}

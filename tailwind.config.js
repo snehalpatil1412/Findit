@@ -1,0 +1,37 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        campus: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          500: '#0284c7',
+          600: '#0369a1',
+          700: '#075985',
+          800: '#0c4a6e',
+          900: '#0f172a',
+        },
+        lost: {
+          light: '#ffe4e6',
+          DEFAULT: '#f43f5e',
+          dark: '#be123c',
+        },
+        found: {
+          light: '#dcfce7',
+          DEFAULT: '#10b981',
+          dark: '#047857',
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      }
+    },
+  },
+  plugins: [],
+}
